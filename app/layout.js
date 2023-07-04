@@ -1,5 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
+import { GRID_DATA_ITEMS } from './data'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +13,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div>
+          {
+            GRID_DATA_ITEMS.map((gridDataItem) => {
+              const { id, attributes } = gridDataItem;
+
+              return (
+                <div key={id}>
+                  <Link href={attributes.href}>{attributes.text}</Link>
+                </div>
+              )
+            })
+          }
+        </div>
+        <br />
+        {children}
+      </body>
     </html>
   )
 }
