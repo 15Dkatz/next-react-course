@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body className="font-roboto flex justify-center items-center min-h-screen">
         <div className="w-[350px] lg:w-[1000px] flex flex-col items-center pt-4 pb-4">
           <div className="w-full bg-slate-100 flex flex-col items-center pb-10 pt-10">
-            <div className="font-ranga text-2xl lg:text-4xl mb-5 underline decoration-3 decoration-blue-400">
+            <div className="title">
               DAVID KANDO MUSIC
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-1">

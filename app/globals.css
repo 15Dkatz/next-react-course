@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title {
+  @apply font-ranga text-2xl lg:text-4xl mb-5 underline decoration-4 decoration-blue-400
+}
+.link {
+  @apply underline text-blue-800
+}
