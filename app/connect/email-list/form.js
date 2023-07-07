@@ -2,7 +2,7 @@
 
 import { useState, useTransition } from 'react';
 import postContact from './post-contact';
-import Spinner from './spinner';
+import Spinner from 'components/spinner';
 
 export default function Form() {
   const [message, setMessage] = useState('');
