@@ -1,4 +1,4 @@
-// import Form from './email-list/form';
+import Form from './email-list/form';
 import Followers from './followers';
 
 export default function Page() {
@@ -30,7 +30,7 @@ export default function Page() {
         <div>
           3. Join my email list.
         </div>
-        {/* <Form /> */}
+        <Form />
         <br />
         <div>
           Reach out for inquiries at <span className="underline">davidkandomusic@gmail.com</span>

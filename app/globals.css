@@ -8,3 +8,6 @@
 .link {
   @apply underline text-blue-800
 }
+.indent {
+  @apply ml-[15px] lg:ml-[20px] mt-[5px]
+}
