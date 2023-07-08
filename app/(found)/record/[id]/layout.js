@@ -1,6 +1,8 @@
 import LayoutStructure from 'components/layout-structure';
 import { RECORDS, RECORDS_MAP } from './data';
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return RECORDS.map(record => ({ id: record.id }));
 }
