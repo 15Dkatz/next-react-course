@@ -1,3 +1,4 @@
+import Player from './player';
 import { RECORDS, RECORDS_MAP } from './data';
 
 export async function generateStaticParams() {
@@ -6,7 +7,7 @@ export async function generateStaticParams() {
 
 export default function Page({ params }) {
   const { id } = params;
-  const { date, blurb } = RECORDS_MAP[id];
+  const { date, blurb, Embed } = RECORDS_MAP[id];
 
   return (
     <>
@@ -14,6 +15,7 @@ export default function Page({ params }) {
       <div className="text-sm text-slate-600">
         Release date: {date}
       </div>
+      <Player embed={<Embed />} />
     </>
   );
 }

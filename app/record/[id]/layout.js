@@ -18,7 +18,7 @@ export default function Layout({ children, params }) {
 
   return (
     <LayoutStructure title={title} background={background}>
-      {children}
+      <div className="flex flex-col items-center">{children}</div>
     </LayoutStructure>
   )
 }
