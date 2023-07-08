@@ -1,10 +1,10 @@
-import { PREMISE, QUESTIONS } from './data';
+import { PREMISE, QUESTIONS } from '../data';
 
 export default function Page() {
   return (
     <>
       {PREMISE}
-      <form>
+      <form action="/quiz/result">
         {
           QUESTIONS.map(({ id: questionId, question, answers }) => (
             <fieldset key={questionId} className="mt-5">
