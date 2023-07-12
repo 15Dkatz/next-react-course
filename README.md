@@ -1,5 +1,21 @@
 ## Course Repository for Next.js and React 18 Course by David Jospeph Katz
 
+**[https://www.udemy.com/course/nextjs-and-react-bootcamp](https://www.udemy.com/course/nextjs-and-react-bootcamp/?referralCode=686A52209BC6FC20C7B7)**
+![Course Logo](next_react_course_logo.png)
+
+In this course, you will learn:
+
+* The Next.js React Framework and React 18
+* Client vs. Server Components and Client-Side vs. Server-Side Rendering
+* New React 18 hooks: useTransition and useDeferredValue
+* React Suspense
+* The Next.js Architecture: Layouts, Pages, and Routes
+* Next.js Dynamic Segments and Route Groups
+* Next.js hooks like usePathname and useSelectedLayoutSegments
+* Next.js Deployment with Vercel
+* Tailwind CSS
+* And more
+
 ### Links
 1. [sandbox/davidkandomusic-demo-starting-point](https://codesandbox.io/p/sandbox/davidkandomusic-demo-starting-point-h7p5g9)
 2. [davidkandomusic.com](https://www.davidkandomusic.com)
